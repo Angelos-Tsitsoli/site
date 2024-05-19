@@ -10,7 +10,7 @@ function App() {
     <CardContent>
       {/* Content of the card goes here */}
      <form>
-      <h1 style={{color: 'yellow'}}>Login </h1>
+      <h1 style={{color: 'white'}}>Login </h1>
       <div class= "wrapper">
       <div class="input-box">
         <input type="text" name="username" placeholder="Username" required/>
