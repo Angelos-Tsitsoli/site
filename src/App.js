@@ -23,9 +23,6 @@ function App() {
         <button class="input-box" onClick={() => console.log('Sign up clicked')}>Sign up</button>
       </div>    
       </div>
-      {/* <button type="submit" class="btn">Login</button>
-      <button type="submit" class="btn">Sign up</button> */}
-      
      </form>
     </CardContent>
   );
