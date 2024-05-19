@@ -19,6 +19,8 @@ function App() {
         <input type="text" name="password" placeholder="Password" required/>
       </div>
       </div>
+      <button type="submit" class="btn">Login</button>
+      <button type="submit" class="btn">Sign up</button>
      </form>
     </CardContent>
   );
