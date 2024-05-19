@@ -25,6 +25,32 @@
   margin: 30px 0;
 }
 
+.wrapper-log-sign{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20%;  
+}
+
+.wrapper-log-sign .input-box{
+  color: #333;
+  border: 2px solid rgba(255, 255, 255, .2);
+  outline: none;
+  background: transparent;
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.wrapper-log-sign .input-box:active {
+  color: #000;
+  background: #fff;
+}
+
+.wrapper-log-sign .input-box:hover {
+  color: #000;
+  background: #fff;
+}
+
 
 .input-box input{
   width: 70%;

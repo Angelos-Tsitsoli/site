@@ -18,9 +18,14 @@ function App() {
       <div class="input-box">
         <input type="text" name="password" placeholder="Password" required/>
       </div>
+      <div class="wrapper-log-sign">
+        <button class="input-box" onClick={() => console.log('Login clicked')}>Login</button>
+        <button class="input-box" onClick={() => console.log('Sign up clicked')}>Sign up</button>
+      </div>    
       </div>
-      <button type="submit" class="btn">Login</button>
-      <button type="submit" class="btn">Sign up</button>
+      {/* <button type="submit" class="btn">Login</button>
+      <button type="submit" class="btn">Sign up</button> */}
+      
      </form>
     </CardContent>
   );
